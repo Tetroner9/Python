@@ -1,6 +1,6 @@
-def palindrome(str):
-    strcheck = str[::-1]
-    if strcheck == str:
+def palindrome(string_pal):
+    string_check = string_pal[::-1]
+    if string_check == string_pal:
         print("Its a palindrome")
     else:
         print("Its not a palindrome")
